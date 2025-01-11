@@ -9,22 +9,23 @@
     display: flex;
     justify-content: space-between;
     background-color: #C6E4D6;
-    padding: 90px 100px; 
-    margin: 0 auto; border-radius: 24px;
+    padding: 100px 100px; 
+    margin:20px 160px 80px 160px;
+     border-radius: 24px;
 }
 .banner-contant{
     width: 622px;
         gap:64px ;
 }
 .banner-pic{
-    width:650px;
+    width:474px;                                                
 
 }
 .banner-heading{
     font-size: 24px;
     font-weight: 500;
-    color: #0e0e0e;
-    margin-top: 130px;
+    color: #3a3535;
+    margin-top: 117px;
 }
 .banner-text{
     font-weight: 700;
@@ -42,3 +43,62 @@
     margin-bottom: 117px;
 
 }
+/* vision-style */
+.vision{
+    padding: 32px;
+    margin: 0 160px 80px 160px;
+   width: 1280px;
+   gap: 32px;
+  
+}
+.vision-container{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    width: 100px;
+ border-radius: 16px;
+}
+     
+     .vision-title{
+    color: #0e0e0e;
+    font-size: 20px;
+    font-weight: 500;
+}
+.vision-container .style-1{
+    background-color: #a3bce6;
+    }
+    .vision-container .style-2{
+        background-color: #bff1da;
+    }
+    .vision-container .style-3{
+background-color: #f1e7ce;
+    }
+    .btn-style{
+        padding: 20px 11px;
+        border-radius: 8px;
+        gap: 24px;
+    }
+    .btn-1{
+      background-color: #5490F5; 
+    }
+    .btn-2{
+        background-color: #09A15C;
+    }
+    .btn-3{
+        background-color:#FFC239 ;
+    }
+    .vision-speech{
+        background-image:url("../assets/quote-bg.png") ;
+        background-repeat: no-repeat;
+        border-radius:16px;
+        background-color: #f9f8f8;
+        padding: 48px 42px;
+
+    }
+    .font-color{
+      color:#443f3f ; 
+    }
