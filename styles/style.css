@@ -6,6 +6,7 @@
 }
 /* banner-styles */
 .banner{
+   
     display: flex;
     justify-content: space-between;
     background-color: #C6E4D6;
@@ -80,7 +81,10 @@ background-color: #f1e7ce;
     .btn-style{
         padding: 20px 11px;
         border-radius: 8px;
-        gap: 24px;
+        gap: 24px; 
+        height: 56px;
+        width: 151px;
+        border: none;
     }
     .btn-1{
       background-color: #5490F5; 
@@ -104,8 +108,8 @@ background-color: #f1e7ce;
     }
     /* news-style  */
 .news-1,  .news-2{
-    width: auto;
-    padding: 0;
+    width:1280px;
+    padding:0;
     margin-top: 100px;
   }
             .news-card-1, .news-card-2{
@@ -126,3 +130,71 @@ background-color: #f1e7ce;
     .news-card-c{
         width: 744px;
     }
+     .donate{
+        /* width: 1280px; */
+        /* height: 464px; */
+        gap: 32px;
+     }
+     .donate-title{
+        font-weight:700 ;
+        font-size: 40px;
+     }
+     .donate-content{
+      text-align: center;
+     }
+     .donate-subt{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+     }
+     .donate-btn{
+        display:inline-flexbox;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 64px;
+        gap: 24px;
+        border: none;
+
+       
+
+     }
+     .input-btn{
+        padding: 40px 20px;
+        height: 64px;
+        background-color: #f9f8f8;
+        display: block;
+        width: 100px; 
+       
+
+     }
+
+     .spacial-btn{
+        background-color: #C6E4D6;
+     }
+     /* .subscribe-style */
+     .subscribe{
+        background-color: #C6E4D6;
+        height:400px ;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         gap:20px ;
+          padding: 100px 40px;
+          margin: 80px 0;
+          border-radius: 24px;
+     }
+     .subscribe .click{
+        display: flex; 
+       align-items: center; 
+        gap:0 ;
+     }
+     .subscribe .click input{
+border: none;
+padding: 20px 0; 
+border-radius: 10px;
+     }
+button:hover {
+    background-color: #5490F5;
+}
