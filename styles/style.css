@@ -56,7 +56,8 @@ margin-bottom: 80px;
    gap: 32px;
    padding: 0; 
    background-color: #f9f8f8;
-   border-radius:10px ;
+   border-radius:10px ; 
+   padding: 20px 0 5px 0;
   }
 .vision-container{
     display: inline-flex;
@@ -83,7 +84,7 @@ margin-bottom: 80px;
     color: #0e0e0e;
     font-size: 20px;
     font-weight: 500;
-}
+     }
 .vision-container .style-1{
     background-color: #a3bce6;
     }
@@ -92,6 +93,12 @@ margin-bottom: 80px;
     }
     .vision-container .style-3{
 background-color: #f1e7ce;
+    }
+    .vision-speech{
+        background-color: #f3f1f1; 
+        margin-top:30px ; 
+        border: 1px solid rgb(209, 205, 205); 
+       
     }
     .btn-style{
         padding: 20px 11px;
